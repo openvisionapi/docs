@@ -1,0 +1,5 @@
+sphinx
+sphinx_rtd_theme
+readthedocs-sphinx-search
+pip-tools
+watchdog[watchmedo]
