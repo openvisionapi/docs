@@ -41,7 +41,7 @@ Download the official client
     $ cd ova-client
     $ make setup
     $ source .venv/bin/activate
-    $ DETECTION_URL=http://localhost:8000/api/v1/detection ./ova_client detection images/demo.jpeg
+    $ DETECTION_URL=http://localhost:8000/api/v1/detection ./ova_client.py detection images/cat.jpeg
 
 .. note::
     For more information about the ova-client check
