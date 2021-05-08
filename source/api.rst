@@ -5,25 +5,41 @@ API Documentation
 
 Object Detection API
 ====================
-Server
+
+URI
+***
 ::
 
     https://api.openvisionapi.com
 
 
+|
 Request
+*******
 
+Request method
+-------------------
 ::
 
-    # POST /api/v1/detection
+    POST
 
-    ## Headers
+Path
+----
+::
+
+    /api/v1/detection
+
+Headers
+-------
+::
 
     {
       'Content-type': 'multipart/form-data; boundary=---BOUNDARY'
     }
 
-    ## Body
+Body
+----
+::
 
     -----BOUNDARY
     Content-Disposition: form-data; name="model"
@@ -38,8 +54,9 @@ Request
     AAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AL+AD//Z
     -----BOUNDARY
 
-
+|
 Response
+********
 
 ::
 
@@ -53,3 +70,7 @@ Response
             }
         ],
     }
+
+The bounding box coordinates correspond to the points as shown in this picture
+
+.. image:: _static/bbox.png
