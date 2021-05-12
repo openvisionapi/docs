@@ -4,7 +4,7 @@ Quick Start
 
 The OVA server is deployed in this address https://api.openvisionapi.com, To give it a quick try, visit the client repository:
 
-https://github.com/openvisionapi/client
+https://github.com/openvisionapi/ova-client
 
 installation
 ============
