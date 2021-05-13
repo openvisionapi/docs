@@ -2,9 +2,11 @@
 Quick Start
 ===========
 
-The OVA server is deployed in this address https://api.openvisionapi.com, To give it a quick try, visit the client repository:
+An instance of ova-server is free and publicly available here:
 
-https://github.com/openvisionapi/ova-client
+https://api.openvisionapi.com
+
+Checkout `ova-client <https://github.com/openvisionapi/ova-client>`_ for a quick demo.
 
 installation
 ============
@@ -37,6 +39,7 @@ Run the ova-server:
 
 Download the official client
 ::
+
     $ git clone https://github.com/openvisionapi/ova-client
     $ cd ova-client
     $ make setup
@@ -45,4 +48,4 @@ Download the official client
 
 .. note::
     For more information about the ova-client check
-    https://github.com/openvisionapi/client
+    https://github.com/openvisionapi/ova-client
