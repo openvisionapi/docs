@@ -19,11 +19,12 @@ Clone the ova-server repository:
 Setup a local enviroment using tensorflow lite as backend framework
 ::
 
-    $ make setup-tensorflow-lite
+    $ just setup-tensorflow
 
 Downlond yolov4 model for object detection
 ::
 
+    $ source .venv/bin/activate
     $ ./cli.py download --model=yolov4 --framework=tensorflow_lite --hardware=cpu
 
 .. Note::
@@ -35,14 +36,14 @@ Running
 Run the ova-server:
 ::
 
-    $ make run
+    $ just run
 
 Download the official client
 ::
 
     $ git clone https://github.com/openvisionapi/ova-client
     $ cd ova-client
-    $ make setup
+    $ just setup
     $ source .venv/bin/activate
     $ DETECTION_URL=http://localhost:8000/api/v1/detection ./ova_client.py detection images/cat.jpeg
 

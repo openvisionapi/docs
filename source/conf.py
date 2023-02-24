@@ -1,5 +1,5 @@
 project = "Open Vision API"
-copyright = "2021, Badr Badri @pythops"
+copyright = "2021 - 2023, Badr Badri @pythops"
 author = "Badr Badri @pythops"
 
 extensions = ["sphinx_rtd_theme"]
