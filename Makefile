@@ -14,10 +14,7 @@ setup:
 	)
 
 pip-update:
-	@(\
-	    source .venv/bin/activate &&  \
-	    pip-compile --output-file=requirements/packages.txt -U requirements/packages.in \
-	)
+	pip-compile --output-file=requirements/packages.txt -U requirements/packages.in --resolver=backtracking
 
 gen:
 	@(\
